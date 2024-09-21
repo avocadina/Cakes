@@ -4,7 +4,7 @@
 
 .title--16 {
     font-weight: 400;
-    font-size: 16px;
+    font-size: clamp(0.875rem, 0.839rem + 0.18vw, 1rem);
     line-height: 170%;
     text-align: center;
     color: #a6aeb6;
@@ -12,7 +12,7 @@
 
 .title--21 {
     font-weight: 400;
-    font-size: 21px;
+    font-size: clamp(1rem, 0.911rem + 0.45vw, 1.313rem);
     line-height: 143%;
     letter-spacing: -0.01em;
     color: #fff;
@@ -20,21 +20,21 @@
 
 .title--24 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: clamp(1.125rem, 1.018rem + 0.54vw, 1.5rem);
     line-height: 143%;
     color: #fff;
 }
 
 .title--30 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: clamp(1.25rem, 1.071rem + 0.89vw, 1.875rem);
     line-height: 143%;
     color: #2e363e;
 }
 
 .title--36 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: clamp(1.5rem, 1.286rem + 1.07vw, 2.25rem);
     line-height: 133%;
     text-align: center;
     color: #2e363e;
@@ -42,7 +42,7 @@
 
 .title--48 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: clamp(2rem, 1.714rem + 1.43vw, 3rem);
     line-height: 125%;
     letter-spacing: -0.02em;
     color: #fff;

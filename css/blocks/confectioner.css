@@ -1,6 +1,6 @@
 .confectioner .title--48 {
     font-weight: 500;
-    font-size: 48px;
+    font-size: clamp(2rem, 1.714rem + 1.43vw, 3rem);
     line-height: 125%;
     letter-spacing: -0.02em;
     color: #2e363e;

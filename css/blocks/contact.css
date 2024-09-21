@@ -2,7 +2,7 @@
     background: url('../../images/bg-con.png') no-repeat top,
     #081130;
 
-    background-size: cover,
+    background-size: contain,
     cover;
 }
 

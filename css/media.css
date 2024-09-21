@@ -1,0 +1,215 @@
+@media screen and (max-width: 1280px) {
+    p {
+        font-size: 14px;
+    }
+
+    .hero {
+        background-size: auto,
+            auto,
+            auto,
+            auto,
+            cover;
+
+        background-position: left 100px,
+        right 100px,
+        right bottom,
+        left bottom,
+        center;
+    }
+
+    .products {
+        padding-bottom: 10px;
+    }
+    
+    .products__item {
+        grid-column: 6 span;
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .product {
+        width: max-content;
+    }
+
+    .hero__content {
+        max-width: 100%;
+    }
+
+    .get-order {
+        background: url('../../images/berries/berry-5.png') no-repeat 90% 25%,
+        url('../../images/berries/leaf-4.png') no-repeat 15% 27%,
+        url('../../images/bg-go-top.png') no-repeat top center,
+        url('../../images/bg-go-bot.png') no-repeat bottom center,
+        url('../../images/bg-go-phone.png') no-repeat left bottom,
+        #081130;
+        background-size:
+        252px 256px,
+        230px 234px,
+        contain,
+        contain,
+        50% auto,
+        100% 99%;
+    }
+
+    .go__content {
+        padding-top: 205px;
+        padding-bottom: 225px;
+    }
+
+    .confectioner__container {
+        flex-direction: column-reverse;
+    }
+
+    .confectioner__content {
+        max-width: 100%;
+    }
+
+    .feedback__item {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .feedback__content {
+        max-width: 100%;
+    }
+
+    .feedback__title {
+        gap: 0;
+    }
+
+    .author__image img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .form__container {
+        padding-top: 150px;
+    }
+
+    .contact {
+        margin-top: 20px;
+    }
+
+    .contact__form {
+        padding: 35px 45px;
+    }
+
+    .form__btn {
+        width: 190px;
+        padding: 14px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn {
+        width: 190px;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .feedback {
+        padding-top: 125px;
+        padding-bottom: 150px;
+    }
+
+    .feedback__item {
+        padding: 35px 10px;
+    }
+
+    .author__image img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .orders__item {
+        grid-column: 6 span;
+    }
+
+    .form__input-container {
+        flex-direction: column;
+    }
+
+    .form__input {
+        width: 190px;
+        padding-right: 10px;
+    }
+
+
+    .feedback__content {
+        max-width: 100%;
+    }
+
+    .feedback__text {
+        display: none;
+    }
+
+    .feedback__link {
+        border: none;
+    }
+
+    .confectioner__name svg {
+        width: 140px;
+    }
+
+    .confectioner__image {
+        padding-left: 25px;
+    }
+
+    .confectioner__photo img {
+        width: 270px;
+        height: 382px;
+    }
+
+    .go__container {
+        align-items: center;
+        padding: auto 0;
+    }
+
+    .products__item {
+        grid-column: 12 span;
+    }
+
+    .hero__content {
+        padding-top: 30px;
+    }
+
+    .hero__btn {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero__span {
+        max-width: 100%;
+    }
+
+    .header--temp {
+        padding: 0;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    
+    .header__contacts {
+        flex-direction: column;
+    }
+
+    .header__address {
+        max-height: none;
+    }
+
+    .hero {
+        background-size: 0,
+            auto,
+            0,
+            auto,
+            cover;
+    }
+
+    .get-order__input button {
+        width: 190px;
+        padding: 15px;
+        font-size: 12px;
+    }
+}
