@@ -1,40 +1,39 @@
 /* global */
-@import url('./_normalize.css');
-@import url('./_fonts.css');
-@import url('./_vars.css');
-@import url('./_settings.css');
+@import url('./fonts.css');
+@import url('./vars.css');
+@import url('./settings.css');
 
 
 /* blocks */
-@import url('./blocks/_title.css');
-@import url('./blocks/_button.css');
-@import url('./blocks/_grid.css');
-@import url('./blocks/_social.css');
-@import url('./blocks/_burger.css');
-@import url('./blocks/_temp-header.css');
+@import url('./blocks/title.css');
+@import url('./blocks/button.css');
+@import url('./blocks/grid.css');
+@import url('./blocks/social.css');
+@import url('./blocks/burger.css');
+@import url('./blocks/temp-header.css');
 
 
 /* hero */
-@import url('./blocks/_hero.css');
+@import url('./blocks/hero.css');
 
 /* products */
-@import url('./blocks/_products.css');
+@import url('./blocks/products.css');
 
 /* get-order */
-@import url('./blocks/_get-order.css');
+@import url('./blocks/get-order.css');
 
 /* confectioner */
-@import url('./blocks/_confectioner.css');
+@import url('./blocks/confectioner.css');
 
 /* feedback */
-@import url('./blocks/_feedback.css');
+@import url('./blocks/feedback.css');
 
 /* orders */
-@import url('./blocks/_orders.css');
+@import url('./blocks/orders.css');
 
 /* contact */
-@import url('./blocks/_contact.css');
-@import url('./blocks/_checkbox.css');
+@import url('./blocks/contact.css');
+@import url('./blocks/checkbox.css');
 
 /* media */
-@import url('./_media.css');
+@import url('./media.css');
