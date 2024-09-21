@@ -30,6 +30,10 @@ html {
     list-style: none;
 }
 
+a:active {
+    background-color: none;
+}
+
 .link-reset {
     text-decoration: none;
     color: inherit;
