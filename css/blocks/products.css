@@ -106,7 +106,6 @@
 
 @media (any-hover: hover) {
     .product:hover {
-        transform: scale(1.01);
         outline: 1px solid #fed84c;
     }
 }

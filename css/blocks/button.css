@@ -58,21 +58,17 @@
 
 @media (any-hover: hover) {
     .catalog-btn:hover {
-        transform: scale(1.03);
         filter: drop-shadow(0 0 10px #fed84c);
     }
 
     .btn--order:hover {
-        transform: scale(1.03);
         opacity: 0.9;
     }
 
     .btn--photo:hover {
-        transform: scale(1.03);
         opacity: 0.9;
     }
     .btn--contact:hover {
-        transform: scale(1.03);
         opacity: 0.9;
     }
 }
