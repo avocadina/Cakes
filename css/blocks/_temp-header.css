@@ -1,0 +1,72 @@
+.header--temp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-bottom: 34px;
+    border-bottom: 1px solid #10152a;
+}
+
+.header__logo {
+    background-image: url(../../images/logo/Logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: 179px;
+    height: 31px;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 63px;
+}
+
+.header__address {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+
+    max-height: 36px;
+}
+
+.header__number {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__text  {
+    font-family: var(--font-family);
+}
+
+.address__svg {
+    padding-top: 5px;
+}
+
+.header__span {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.number__text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.number__phone {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    color: #fff;
+}
+
+.time {
+    font-size: 13px;
+}

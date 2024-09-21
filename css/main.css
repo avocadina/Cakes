@@ -1,0 +1,40 @@
+/* global */
+@import url('./_normalize.css');
+@import url('./_fonts.css');
+@import url('./_vars.css');
+@import url('./_settings.css');
+
+
+/* blocks */
+@import url('./blocks/_title.css');
+@import url('./blocks/_button.css');
+@import url('./blocks/_grid.css');
+@import url('./blocks/_social.css');
+@import url('./blocks/_burger.css');
+@import url('./blocks/_temp-header.css');
+
+
+/* hero */
+@import url('./blocks/_hero.css');
+
+/* products */
+@import url('./blocks/_products.css');
+
+/* get-order */
+@import url('./blocks/_get-order.css');
+
+/* confectioner */
+@import url('./blocks/_confectioner.css');
+
+/* feedback */
+@import url('./blocks/_feedback.css');
+
+/* orders */
+@import url('./blocks/_orders.css');
+
+/* contact */
+@import url('./blocks/_contact.css');
+@import url('./blocks/_checkbox.css');
+
+/* media */
+@import url('./_media.css');

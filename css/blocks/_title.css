@@ -1,0 +1,49 @@
+.title {
+    margin: 0;
+}
+
+.title--16 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+    color: #a6aeb6;
+}
+
+.title--21 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+.title--24 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    color: #fff;
+}
+
+.title--30 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 143%;
+    color: #2e363e;
+}
+
+.title--36 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    text-align: center;
+    color: #2e363e;
+}
+
+.title--48 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}

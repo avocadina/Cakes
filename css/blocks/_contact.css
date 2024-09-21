@@ -1,0 +1,91 @@
+.contact {
+    background: url('../../images/bg-con.png') no-repeat top,
+    #081130;
+
+    background-size: cover,
+    cover;
+}
+
+.form__container {
+    align-items: center;
+    justify-content: center;
+    padding: 300px 0;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 70px 99px;
+
+    background-color: #fff;
+}
+
+.form__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.form__input-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form__checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form__heading .title--21 {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #2e363e;
+}
+
+.form__input {
+    border: none;
+    border-radius: 8px;
+    padding: 16px 21px;
+    padding-left: 58px;
+    width: 380px;
+    height: 85px;
+
+    background: url(../../images/placeholder/phone.svg) no-repeat 26px 50%,
+    #f2f6fa;
+    background-size: 25px 25px,
+    cover;
+}
+
+.form__input::placeholder {
+    top: 40%;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #7e868e;
+}
+
+.form__input:focus {
+    outline: 1px dashed yellow;
+}
+
+.form__link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.form__btn {
+    border-radius: 8px;
+    padding: 29px 41px;
+    width: 380px;
+    height: 86px;
+
+    background-color: #fed84c;;
+}

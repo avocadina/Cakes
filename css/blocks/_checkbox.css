@@ -1,0 +1,36 @@
+.checkbox__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.form__checkbox {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox__icon {
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 2px;
+    width: 12px;
+    height: 12px;
+    outline: 1px solid #4a94ff;
+}
+
+.checkbox__icon::after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    opacity: 0;
+    transition: var(--btn-trs);
+}
+
+.checkbox__text {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+    color: #7e868e;
+}

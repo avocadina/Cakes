@@ -1,0 +1,42 @@
+.get-order {
+    background: url('../../images/berries/berry-5.png') no-repeat 90% 25%,
+    url('../../images/berries/leaf-4.png') no-repeat 15% 27%,
+    url('../../images/bg-go-top.png') no-repeat top center,
+    url('../../images/bg-go-bot.png') no-repeat bottom center,
+    url('../../images/bg-go-phone.png') no-repeat -100px bottom,
+    #081130;
+    /*url('../../images/bg-go-phone.png') no-repeat left bottom,
+    #081130; */
+
+
+    background-size:
+    252px 256px,
+    230px 234px,
+    contain,
+    contain,
+    890px 834px;
+}
+
+.go__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.go__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 481px;
+
+    padding-top: 409px;
+    padding-bottom: 459px;
+}
+
+.go__quality {
+    background-color: #f2f6fa;
+    max-width: max-content;
+    border-radius: 5px;
+    padding: 10px 18px;
+}

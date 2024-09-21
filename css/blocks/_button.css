@@ -1,0 +1,99 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-decoration: none;
+    transition: var(--btn-trs);
+}
+
+.catalog-btn {
+    border-radius: 8px;
+    padding: 30px 40px;
+    width: 277px;
+    height: 88px;
+    background-color: #fed84c;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    text-align: center;
+    color: #2e363e;
+}
+
+.btn--order {
+    border-radius: 8px;
+    padding: 20px 40px;
+    width: 163px;
+    height: 68px;
+    background-color: #fed84c;
+    color: inherit;
+
+    position: relative;
+}
+
+.btn--photo {
+    border-radius: 8px;
+    padding: 30px 50px;
+    width: 320px;
+    height: 88px;
+    background: #fed84c;
+}
+
+.btn--contact {
+    border-radius: 8px;
+    padding: 30px 50px;
+    width: 299px;
+    height: 88px;
+    background: #fed84c;
+}
+
+@media (any-hover: hover) {
+    .catalog-btn:hover {
+        transform: scale(1.03);
+        filter: drop-shadow(0 0 10px #fed84c);
+    }
+
+    .btn--order:hover {
+        transform: scale(1.03);
+        opacity: 0.9;
+    }
+
+    .btn--photo:hover {
+        transform: scale(1.03);
+        opacity: 0.9;
+    }
+    .btn--contact:hover {
+        transform: scale(1.03);
+        opacity: 0.9;
+    }
+}
+
+.catalog-btn:active {
+    transform: scale(0.97);
+    filter: none;
+    background-color: #fff;
+}
+
+.btn--order:active {
+    transform: scale(0.97);
+    background-color: #fff;
+}
+
+.btn--photo:active {
+    transform: scale(0.97);
+    background-color: #fff;
+}
+
+.btn--contact:active {
+    transform: scale(0.97);
+    background-color: #fff;
+}

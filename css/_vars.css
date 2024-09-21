@@ -1,0 +1,10 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+
+    --container-offset: 15px;
+    --container-width: 1180px;
+	--section-gap: 128px;
+    --gap: 20px;
+
+	--btn-trs: transform 0.3s ease-out;
+}
