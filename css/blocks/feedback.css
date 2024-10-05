@@ -3,8 +3,8 @@
         url('../../images/bg-feedback-bot.png') no-repeat bottom,
         #081130;
     
-    background-size: contain, 
-    contain,
+    background-size: cover, 
+    cover,
     cover;
 
     padding-top: 252px;
