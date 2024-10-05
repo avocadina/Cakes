@@ -123,6 +123,22 @@
         height: 150px;
     }
 
+    .get-order {
+        background: url('../../images/berries/berry-5.png') no-repeat 90% 25%,
+        url('../../images/berries/leaf-4.png') no-repeat 15% 27%,
+        url('../../images/bg-go-top.png') no-repeat top center,
+        url('../../images/bg-go-bot.png') no-repeat bottom center,
+        #081130;
+        
+        background-size:
+        252px 256px,
+        230px 234px,
+        contain,
+        contain,
+        100% 99%;
+    }
+
+
     .orders__item {
         grid-column: 6 span;
     }
