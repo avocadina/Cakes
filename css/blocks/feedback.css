@@ -1,6 +1,6 @@
 .feedback {
-    background: url(../../images/bg-feedback-top.png) no-repeat top,
-        url(../../images/bg-feedback-bot.png) no-repeat bottom,
+    background: url('../../images/bg-feedback-top.png') no-repeat top,
+        url('../../images/bg-feedback-bot.png') no-repeat bottom,
         #081130;
     
     background-size: contain, 
